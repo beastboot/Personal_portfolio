@@ -1,0 +1,37 @@
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background:#00abf0;
+    border-radius: 5%;
+    box-shadow: 0 0 1rem #00abf0;
+    font-size: 1rem;
+    color: #081b29;
+    letter-spacing:.1rem ;
+    font-weight: 600;
+    transition: .5s ease ;
+    text-decoration: none;
+}
+span{
+    color: #00abf0;
+}
+.heading
+{
+    text-align: center;
+    font-size: 2rem;
+}
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #6e93f7;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4070f4;
+}
