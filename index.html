@@ -254,25 +254,27 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
             <div class="right"></div>
         </div>
     </section>
-    <script class="main js"></script>
+    <script class="main.js"></script> 
     <script>
         const text = document.querySelector(".sec-text");
 
-        const textLoad = () => {
-            setTimeout(() => {
-                text.textContent = "Coder";
-            }, 0);
-            setTimeout(() => {
-                text.textContent = "Student";
-            }, 5000);
-            setTimeout(() => {
-                text.textContent = "Frontend Developer";
-            }, 8000); //1s = 1000 milliseconds
-        }
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = "Coder";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "Student";
+    }, 5000);
+    setTimeout(() => {
+        text.textContent = "Frontend Developer";
+    }, 8000); //1s = 1000 milliseconds
+}
+textLoad();
+setInterval(textLoad, 12000);
+    </script>
+   
+   </script>
 
-        textLoad();
-        setInterval(textLoad, 12000);
-    </script>   
     
 </body>
 </html>
