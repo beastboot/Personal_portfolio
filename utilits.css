@@ -38,16 +38,16 @@ span{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #d0d0d0;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: #00abf0;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #081b29;
 }
 /* title */
 .title{
