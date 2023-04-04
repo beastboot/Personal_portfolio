@@ -32,7 +32,9 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi,I'm Roshan Kumar</h1>
-            <h3>Frontend Developer</h3>
+            <div class="container1">
+            <span class="text sec-text">Coder</span>
+            </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa molestiae nesciunt, unde labore quos voluptatum maxime ab est asperiores doloribus, quia explicabo accusantium vitae, expedita consequuntur recusandae. Voluptates, natus placeat.</p>
             <div class="btn-box">
                 <a href="#">Hire Me</a>
@@ -253,5 +255,24 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         </div>
     </section>
     <script class="main js"></script>
+    <script>
+        const text = document.querySelector(".sec-text");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Coder";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Student";
+            }, 5000);
+            setTimeout(() => {
+                text.textContent = "Frontend Developer";
+            }, 8000); //1s = 1000 milliseconds
+        }
+
+        textLoad();
+        setInterval(textLoad, 12000);
+    </script>   
+    
 </body>
 </html>

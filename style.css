@@ -587,3 +587,34 @@ color: #ededed;
     grid-column: 1/2;
     grid-row: 1/2;
   }
+
+
+  .container1{
+    width: 400px;
+    overflow: hidden;
+}
+.container1 .text{
+    position: relative;
+    color: #00abf0;
+    font-size: 39px;
+    font-weight: 600;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #081b29;
+    border-left: 2px solid #00abf0;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
