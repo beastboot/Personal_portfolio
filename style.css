@@ -296,13 +296,14 @@ body{
     }
 }
 .about{
-    background: #081b29;
+    background: #143247;
 color: #ededed;
 padding: 20px 10%;
 min-height: 100vh;
 }
 .about .heading{
     margin: 56px 0 0 0;
+    padding: 0.6rem 0;
 }
 .about .heading span{
     font-size: 3.1rem;
@@ -487,9 +488,9 @@ min-height: 100vh;
 /* portfolio */
 .portfolio{
     padding: 0px 10%;
-background: #081b29;
+background: #143247;
 min-height: 100vh;
-color: #081b29;
+color: #ededed;
 }
 .portfolio h2{
     margin-bottom: 2rem;
@@ -522,7 +523,7 @@ color: #081b29;
     left: 0;
     width: 100;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.1),#ededed);
+    background: linear-gradient(rgba(0,0,0,.1),#143247);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -563,4 +564,26 @@ color: #081b29;
   }
   .portfolio .heading{
     padding: 67px 0 9px 0;
+  }
+
+  /* contact */
+
+  .contactme{
+    padding: 0 10%;
+    width: 100%;
+    overflow: hidden;
+    background: yellowgreen;
+    height: 100vh;
+    min-height: 700px;
+  }
+  .contactme .container{
+    height: 100vh;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .contactme .container > div{
+    grid-column: 1/2;
+    grid-row: 1/2;
   }

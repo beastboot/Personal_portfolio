@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -19,6 +22,17 @@ span{
     text-align: center;
     font-size: 2rem;
 }
+ .heading .heading1 h2{
+    font-size: 4rem;
+    color: #00abf0;
+    text-decoration: overline #ededed 0px;
+    transition: .5s ease;
+}
+.heading .heading2 h2{
+    font-size: 1.7rem;
+    color: #ededed;
+    margin-top: -67px;
+}
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -34,4 +48,39 @@ span{
 
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
+}
+/* title */
+.title{
+    position: relative;
+}
+.title > h2{
+    font-size: 5rem;
+    font-family: var(--poppins);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #00abf0;
+}
+.title div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.title div h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: var(--poppins);
+    font-weight: 800;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.text{
+    font-size: 1.05rem;
+    color: #d0d0d0;
+    line-height: 1.7;
 }
