@@ -1,0 +1,15 @@
+@media only screen and (max-width=745){
+.home-content h1{
+    width: auto;
+font-size: auto;
+font-size: 6vh;
+background: red;
+}
+}
+@media only screen and (width<757){
+    .home-content h1{
+        width: auto;
+    font-size: auto;
+    font-size: 5vh;
+    }
+    }

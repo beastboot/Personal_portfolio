@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* width:100%; */
+            padding: 0 10%;
+            
+        }
+.fx{
+    height:300px;
+    min-width:300px;
+    margin:0 20px;
+    animation:2s roshan linear infinite;
+    border-radius:12px;
+}
+.flex-container{
+    display: flex;
+    width:100%;
+    overflow-x:auto;
+}
+@keyframes roshan {
+    0%{
+        background-color: #3696e5;
+    }
+    50%{
+        background-color: #ac4ec4;
+    }
+    100%{
+        background-color: #3696e5;
+    }
+}
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <div class="fx gr"></div>
+            <div class="fx red"></div>
+            <div class="fx gr"></div>
+            <div class="fx red"></div>
+            <div class="fx gr"></div>
+            <div class="fx red"></div>
+            <div class="fx gr"></div>
+            <div class="fx red"></div>
+        </div>
+    </div>
+</body>
+</html>

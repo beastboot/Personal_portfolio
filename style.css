@@ -428,6 +428,43 @@ min-height: 100vh;
   .react-bar {
     width: 80%;
   }
+
+  /* education */
+
+  .education{
+    padding: 0 10%;
+    min-height: 100vh;
+    background: #143247;
+  }
+  .education .heading{
+    padding: 76px 0 0 0;
+  }
+  .fx{
+    height:300px;
+    min-width:300px;
+    margin:0 37px;
+    animation:2s roshan linear infinite;
+    border-radius:12px;
+    border: 2px solid #00abf0;
+    background: #ededed;
+}
+.flex-container2{
+    display: flex;
+    width:100%;
+    overflow-x:auto;
+    padding-top: 10%;
+}
+/* @keyframes roshan {
+    0%{
+        background-color: #3696e5;
+    }
+    50%{
+        background-color: #ac4ec4;
+    }
+    100%{
+        background-color: #3696e5;
+    }
+} */
   /* services */
   .services{
     padding: 20px 10%;
